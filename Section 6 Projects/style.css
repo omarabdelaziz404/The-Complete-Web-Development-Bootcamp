@@ -1,0 +1,21 @@
+html{
+    background-color: black;
+}
+  h1{
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-transform: uppercase;
+}
+p{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+#box{
+    text-align: center;
+}
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+
+  

@@ -1,0 +1,28 @@
+/* Group, apply to both selectors */
+h1, h2{ 
+    color: blueviolet;
+}
+
+/* Child, apply to direct child of left side */
+.box > .done{ 
+    color: firebrick;
+}
+
+ /* Descendant, apply to a descendant of left side */
+.box li{
+    color: blue;
+}
+
+ /* Chaing, apply where ALL selectors are true 
+ element.class#id */
+ li.done{
+    color: seagreen;
+ }
+
+/*  Multiple Combiners*/
+ul p.done{
+    font-size: 0.5rem;
+ }
+
+
+

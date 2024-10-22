@@ -1,0 +1,36 @@
+html{
+    background-color: #001F3F;
+    color: #EAD8B1;
+    
+}
+h1{
+    font-family:  "Roboto Condensed", sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: "Caveat", cursive;
+    text-align: center;
+}
+
+.rounded-button {
+    background-color: #3A6D8C;
+    border: none;
+    color: #EAD8B1;
+    padding: 7px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px;
+    cursor: pointer;
+    border-radius: 15px; /* Rounded corners */
+}
+
+.container {
+    display: grid;
+    place-items: center; /* Center both vertically and horizontally */
+    height: 30vh;       /* Full viewport height */
+}
+
+
