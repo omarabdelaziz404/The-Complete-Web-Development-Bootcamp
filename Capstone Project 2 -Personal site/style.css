@@ -1,0 +1,53 @@
+html{
+    background-color: #77a0e8;
+}
+body{
+    text-align: center;
+}
+h1, h2, h3, p{
+    font-family: "DM Serif Text", serif;
+}
+.font-size{
+    font-size: 1.5rem;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #77a0e8;
+    color: black ;
+}
+.header-font{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+.profile-pic{
+    width: 200px;
+    border-radius: 50%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Get-in-touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    background-color:#2567da;
+}
+footer{
+    background-color: #77a0e8;
+    color: white;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
